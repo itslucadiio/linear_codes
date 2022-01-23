@@ -1,0 +1,122 @@
+/* BY LUCA DI IORIO */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+    /* background-image: url("/static/img/ui_bgn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    color: #606468;
+    margin: 0;
+}
+
+/* ---------- NAVBAR --------- */
+.navbar {
+    background-color: #0069d9;
+    border-color: #0069d9;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding:17px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: #96a4eb;
+    color: white;
+}
+.navbar-brand {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+/* ---------- SHOWROOM --------*/
+#showroom {
+    background-color:#FFF;
+    border: 1px solid;
+    border-color: #0069d9;
+    border-radius: 15px;
+    min-height: 150px;
+    font-size: 17px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+#showroom ul {
+    list-style-type: none;
+}
+#showroom .table>tbody>tr>th,
+#showroom .table>tbody>tr>td
+{
+    border: none !important;
+    padding: 2px;
+    font-weight: 100;
+    vertical-align: middle;
+}
+#showroom .title {
+    text-transform: uppercase;
+    color: #0069d9;
+    font-size: 18px;
+    float: left;
+    display: block;
+    font-weight: 600;
+}
+#showroom  .spacer{
+    height: 30px;
+}
+#showroom .subtitle {
+    text-transform: uppercase;
+    color: #0069d9;
+    font-size: 18px;
+    font-weight: 100;
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* ---------- BUTTONS --------*/
+.btn-ok {
+  color:#fff;
+  background-color: #0069d9 ;
+  border-color: #0069d9 ;
+}
+.btn-ko {
+  color: #0069d9;
+  background-color: #ddd;
+  border-color: #0069d9;  
+}
+.badge-disabled {
+    background-color: #999 !important;
+}
+.badge-enabled {
+    background-color: #0069d9 !important;
+}
+
+input {
+    border: 1px solid;
+    border-radius: 3px;
+    border-color:#0069d9;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 17px;
+    -webkit-appearance: none;
+}
+select {
+    border: 1px solid;
+    border-radius: 3px;
+    border-color:#0069d9;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 17px;
+    height:28px;
+    /* -webkit-appearance: none; */
+}
